@@ -223,3 +223,74 @@
 // console.log(calculator.sum())
 // console.log(calculator.mul())
 
+//OPTIONAL CHAINING
+
+// let user = {}
+
+// alert(user.address.street)
+
+//FEO
+
+// let user = {}
+// alert(user.address ? user.address.stree : undefined)
+
+
+//GOOD
+
+// let user = {}
+// alert(user?.adress?.street)
+
+// let user = null
+// // alert(user?.adress)
+// alert(user?.adress?.street)
+
+
+//short circuit
+
+// let user  = null;
+// let x = 0
+
+// user?.sayHi(x++)
+// alert(x)
+
+
+// let userAdmin = {
+//     admin(){
+//         alert('I am admin')
+//     }
+// }
+
+// let userGuest = {}
+
+// userAdmin.admin?.()
+// userGuest.admin?.()
+
+// let key = "firstName"
+
+// let user1 = {
+//     firstName: "John"
+// }
+
+// let user2 = null
+
+// alert(user1?.[key])
+// alert(user2?.[key])
+
+
+//SYMBOL TYPE
+
+// let id1 = Symbol("id")
+// let id2 = Symbol("id")
+
+// alert(id1==id2)
+
+// let user = {
+//     name : "John"
+// }
+
+// let id = Symbol('id')
+// user[id] = 1
+
+// alert(user[id])
+
+//CONVERSION
