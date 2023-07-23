@@ -126,18 +126,111 @@
     // let fruits = ['Apple', 'Orange', 'Plum']
     // console.log(fruits)
 
-    let fruits = ['Apple', 'Orange', 'Pear']
+    // let fruits = ['Apple', 'Orange', 'Pear']
     // console.log(fruits.shift())
     // console.log(fruits)
 
     // fruits.unshift('Apple')
     // console.log(fruits)
 
-    for (let i = 0; i < fruits.length; i++) {
-        console.log(fruits[i])
-    }
+    // for (let i = 0; i < fruits.length; i++) {
+    //     console.log(fruits[i])
+    // }
 
-    for(let fruit of fruits){
-        console.log(fruit)
-    }
+    // for(let fruit of fruits){
+    //     console.log(fruit)
+    // }
 
+
+    //MULTIDIMENSIONAL ARRAYS
+
+    // let matrix = [
+    //     [1,2,3],
+    //     [4,5,6],
+    //     [7,8,9]
+    // ]
+
+    // console.log(matrix)
+    // console.log(matrix[1][1])
+
+
+    //ARRAY OPERATIONS
+
+    // let styles = ['Jazz','Blues']
+    // console.log(styles)
+    // styles.push('Rock-n-Roll')
+    // console.log(styles)
+    // styles[1] = 'Classics'
+    // console.log(styles)
+    // styles.shift()
+    // console.log(styles)
+    // styles.unshift('Rap','Reggae')
+    // console.log(styles)
+
+    // function sumInput(){
+
+    //     let sum = 0;
+    //     let numbers = []
+
+    //     while(true){
+    //        let input = prompt("A number please?")
+    //        if(input === "" || input === null || !isFinite(input)){
+    //         break;
+    //        }
+    //        let num = Number(input)
+    //        numbers.push(num)
+    //     //    for(number of numbers){
+    //     //     sum+=number
+    //     // }
+    //     }
+    //     for(number of numbers){
+    //         sum+=number
+    //     }
+    //     return sum
+    // }
+
+    // alert(sumInput())
+
+    // function getMaxSubSum(arr){
+
+    // }
+
+    // getMaxSubSum([-1, 2, 3, -9]) 
+    // // == 5 (the sum of highlighted items)
+    // getMaxSubSum([2, -1, 2, 3, -9]) // == 6
+    // getMaxSubSum([-1, 2, 3, -9, 11]) // == 11
+    // getMaxSubSum([-2, -1, 1, 2]) // == 3
+    // getMaxSubSum([100, -9, 2, -3, 5]) // == 100
+    // getMaxSubSum([1, 2, 3]) == 6 //(take all)
+    // getMaxSubSum([-1, -2, -3]) = 0
+
+
+    //ARRAY METHODS
+
+    // let arr = ['I', 'go', 'home']
+    
+    // delete arr[1]
+
+    // console.log(arr[1])
+
+    // console.log(arr.length)
+
+    //splice
+
+    // let arr = ['I', 'study', 'JavaScript']
+
+    // arr.splice(1,1)
+    // console.log(arr)
+
+    // let arr = ['I', 'study', 'JavaScript', 'right', 'now']
+
+    // arr.splice(0,3, "Let's", "dance")
+
+    // console.log(arr)
+
+    // let arr = ['I', 'study', 'JavaScript', 'right', 'now']
+
+    // let removed = arr.splice(0,2)
+    // console.log(removed)
+
+    //
