@@ -233,4 +233,75 @@
     // let removed = arr.splice(0,2)
     // console.log(removed)
 
-    //
+    // let arr = ['I', 'study', 'JavaScript']
+
+    // arr.splice(2,0,'commplex', 'language')
+    // console.log(arr)
+
+
+    //slice
+
+    // let arr = ['t','e','s','t']
+
+    // console.log(arr.slice(1,3))
+    // console.log(arr.slice(-2))
+
+    //concat
+
+    // let arr = [1,2]
+
+    // console.log(arr.concat([3,4]))
+    // console.log(arr.concat([3,4],[5,6]))
+    // console.log(arr.concat([3,4],5,6))
+
+    //forEach
+
+    // let arr = ['Bilbo', 'Gandalf', 'Nazgul']
+    // arr.forEach((item,index,array) => {
+    //     console.log(`${item} is at index ${index} in ${array}`)
+    // })
+
+
+    //Searching in array
+
+    //indexof/lastIndexOf
+
+    // let arr = [1, 0, false]
+
+    // console.log(arr.indexOf(0))
+    // console.log(arr.indexOf(false))
+    // console.log(arr.indexOf(null))
+    // console.log(arr.includes(1))
+
+    //find
+
+    // let users = [
+    //     {id:1,name:'John'},
+    //     {id:2,name:'Pete'},
+    //     {id:3,name:'Mary'}
+    // ]
+
+    // // let user = users.find(item => item.id == 3)
+
+    // let user = users.find(function(item){
+    //     return item.id == 3;
+    // })
+
+    // console.log(user)
+
+    // console.log(user.name)
+
+    let arr = ['Bilbo', 'Gandalf', 'Nazgul']
+
+    let lengths = arr.map(item => item.length)
+    console.log(lengths)
+
+    let users = [
+        {id:1,name:'John'},
+        {id:2,name:'Pete'},
+        {id:3,name:'Mary'}
+    ]
+
+    let user = users.map(item => item.id == 3)
+
+    console.log(user)
